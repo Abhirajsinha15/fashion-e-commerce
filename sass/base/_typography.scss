@@ -1,0 +1,168 @@
+@import './fonts/icomoon.css';
+@import '../utils/mixins';
+@import '../utils/variables';
+
+body {
+  font-family: 'icomoon', sans-serif;
+}
+
+
+.activated {
+  color: $hover-font-color ;
+}
+
+header {
+  .banner {
+    .row {
+      color: $secondary-font-col;
+      font-size: 0.95rem;
+
+      .contact {
+        p {
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+
+      .user-items {
+        ul {
+          li {
+            a {
+              color: $secondary-font-col;
+
+              &:hover {
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .navbar-nav {
+      li {
+        a {
+          font-size: 0.75rem;
+
+          &:hover {
+            color: $hover-font-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.hero {
+
+  .responsive {
+    .arrows {
+      font-size: 2rem;
+    }
+  }
+
+  .slides-content {
+    h1 {
+      font-size: 5rem;
+      font-weight: 800;
+
+      span {
+        line-height: 4.25rem;
+      }
+
+    }
+
+    p {
+      font-size: 0.75rem;
+      color: $secondary-font-col;
+      margin: 3rem 0;
+      line-height: 1rem;
+    }
+
+
+  }
+}
+
+.products {
+  .content-head {
+    h2 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 0.8rem;
+
+      &:hover {
+        color: $hover-font-color;
+      }
+    }
+  }
+
+  .card {
+    .card-content {
+      h5 {
+        font-weight: 700;
+
+        &:hover {
+          color: $hover-font-color;
+          cursor: pointer;
+        }
+
+      }
+
+
+
+      h4 {
+        color: $hover-font-color;
+      }
+
+    }
+
+    .card-img {
+      .cart-content {
+
+        h6,
+        i {
+          font-size: 0.8rem;
+          margin: 0;
+        }
+      }
+
+    }
+  }
+}
+
+
+.selections {
+  .row {
+    .content {
+
+      color: $secondary-font-col;
+
+      span {
+        font-size: 1.25rem;
+      }
+
+      h2 {
+        font-weight: 800;
+        font-size: 3rem;
+        color: #000;
+
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+    }
+  }
+}

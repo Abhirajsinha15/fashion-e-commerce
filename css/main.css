@@ -1,0 +1,399 @@
+@import './fonts/icomoon.css';
+@import './fonts/icomoon.css';
+body {
+  font-family: "icomoon", sans-serif;
+}
+
+.activated {
+  color: #B7E9FF;
+}
+
+header .banner .row {
+  color: #8D8D8D;
+  font-size: 0.95rem;
+}
+header .banner .row .contact p span {
+  font-weight: 700;
+}
+header .banner .row .user-items ul li a {
+  color: #8D8D8D;
+}
+header .banner .row .user-items ul li a:hover {
+  color: #000;
+}
+header .navbar .navbar-nav li a {
+  font-size: 0.75rem;
+}
+header .navbar .navbar-nav li a:hover {
+  color: #B7E9FF;
+}
+
+.hero .responsive .arrows {
+  font-size: 2rem;
+}
+.hero .slides-content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.hero .slides-content h1 span {
+  line-height: 4.25rem;
+}
+.hero .slides-content p {
+  font-size: 0.75rem;
+  color: #8D8D8D;
+  margin: 3rem 0;
+  line-height: 1rem;
+}
+
+.products .content-head h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.products .content-head a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+.products .content-head a:hover {
+  color: #B7E9FF;
+}
+.products .card .card-content h5 {
+  font-weight: 700;
+}
+.products .card .card-content h5:hover {
+  color: #B7E9FF;
+  cursor: pointer;
+}
+.products .card .card-content h4 {
+  color: #B7E9FF;
+}
+.products .card .card-img .cart-content h6,
+.products .card .card-img .cart-content i {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.selections .row .content {
+  color: #8D8D8D;
+}
+.selections .row .content span {
+  font-size: 1.25rem;
+}
+.selections .row .content h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #000;
+}
+.selections .row .content p {
+  font-size: 0.8rem;
+}
+
+.shop-now-btn {
+  padding: 0.6rem 3rem;
+}
+.shop-now-btn:hover {
+  background: #191919;
+  color: #fff;
+}
+.shop-now-btn:hover i {
+  animation: slideRight 0.5s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+.products .card {
+  border: 0;
+}
+.products .card .card-img {
+  border: 1px #8D8D8D solid;
+  padding: 0.3rem;
+  position: relative;
+}
+.products .card .card-img img {
+  width: 100%;
+}
+.products .card .card-img .cart-content {
+  position: absolute;
+  width: 85%;
+  background: #fff;
+  top: 8rem;
+  left: 1rem;
+  padding: 0.6rem;
+  display: none;
+}
+.products .card .card-img:hover {
+  cursor: pointer;
+}
+.products .card .card-img:hover .cart-content {
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+  animation: slideDown 0.5s ease-out;
+}
+.products .card .card-content {
+  margin: 1rem 0;
+}
+
+body {
+  font-family: "icomoon", sans-serif;
+}
+
+.activated {
+  color: #B7E9FF;
+}
+
+header .banner .row {
+  color: #8D8D8D;
+  font-size: 0.95rem;
+}
+header .banner .row .contact p span {
+  font-weight: 700;
+}
+header .banner .row .user-items ul li a {
+  color: #8D8D8D;
+}
+header .banner .row .user-items ul li a:hover {
+  color: #000;
+}
+header .navbar .navbar-nav li a {
+  font-size: 0.75rem;
+}
+header .navbar .navbar-nav li a:hover {
+  color: #B7E9FF;
+}
+
+.hero .responsive .arrows {
+  font-size: 2rem;
+}
+.hero .slides-content h1 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.hero .slides-content h1 span {
+  line-height: 4.25rem;
+}
+.hero .slides-content p {
+  font-size: 0.75rem;
+  color: #8D8D8D;
+  margin: 3rem 0;
+  line-height: 1rem;
+}
+
+.products .content-head h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.products .content-head a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+.products .content-head a:hover {
+  color: #B7E9FF;
+}
+.products .card .card-content h5 {
+  font-weight: 700;
+}
+.products .card .card-content h5:hover {
+  color: #B7E9FF;
+  cursor: pointer;
+}
+.products .card .card-content h4 {
+  color: #B7E9FF;
+}
+.products .card .card-img .cart-content h6,
+.products .card .card-img .cart-content i {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.selections .row .content {
+  color: #8D8D8D;
+}
+.selections .row .content span {
+  font-size: 1.25rem;
+}
+.selections .row .content h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #000;
+}
+.selections .row .content p {
+  font-size: 0.8rem;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+header .container-fluid {
+  padding: 0 2rem;
+}
+header .banner {
+  border-bottom: 1px #8D8D8D solid;
+}
+header .banner .row p {
+  margin-bottom: 0;
+}
+header .banner .row .user-items ul li {
+  margin: 0 5px;
+}
+header .navbar {
+  background: #fff;
+}
+header .navbar .navbar-brand img {
+  width: 70%;
+}
+header .navbar .navbar-nav li {
+  margin: 0 1.2rem;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(30%);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero .container-fluid .responsive {
+  position: relative;
+  padding: 0 2rem;
+}
+.hero .container-fluid .responsive .arrows {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: 15rem;
+  width: 2.5rem;
+  padding: 0.188rem 0 0.188rem 1rem;
+  background: #E9ECEE;
+}
+.hero .container-fluid .responsive .arrows:hover {
+  background: #6995B1;
+  color: #fff;
+}
+.hero .container-fluid .responsive .right-arrow {
+  left: 81.8rem;
+}
+.hero .container-fluid .responsive .slides {
+  width: 100%;
+  position: relative;
+}
+.hero .container-fluid .responsive .slides .banner-1-img-content {
+  background: url(/images/banner1.jpg) 0 -53px no-repeat;
+  background-size: cover;
+  min-height: 35rem;
+}
+.hero .container-fluid .responsive .slides .banner-2-img-content {
+  background: url(/images/banner2.jpg) 0 -55px no-repeat;
+  background-size: cover;
+  min-height: 35rem;
+}
+.hero .container-fluid .responsive .slides .slides-content {
+  position: absolute;
+  bottom: 6rem;
+  left: 10rem;
+  width: 40%;
+}
+.hero .container-fluid .responsive .slides img {
+  width: 100%;
+  height: 10%;
+}
+
+.products {
+  padding: 5rem 0;
+}
+.products .row {
+  margin: 4rem 0 0;
+}
+
+.selections {
+  padding: 5rem 0;
+}
+.selections .col-md-12 {
+  border-radius: 0.5rem;
+}
+.selections .row .casual-collection {
+  min-height: 36rem;
+  background: url(/images/collection-item1.jpg) -1px -60px no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.selections .row .casual-collection .content {
+  width: 50%;
+  position: absolute;
+  top: 13rem;
+  left: 22.5rem;
+  padding: 0 0 0 2.12rem;
+}
+.selections .row .casual-collection .content p {
+  margin: 2rem 0;
+}
+.selections .row .inner-row {
+  flex-direction: column;
+  padding: 0 0 0 2rem;
+}
+.selections .row .inner-row .basic-collection {
+  background: url(/images/collection-item2.jpg) -70px -45px no-repeat;
+  width: 100%;
+}
+.selections .row .inner-row .basic-collection .content {
+  padding: 5rem 0;
+  width: 50%;
+}
+.selections .row .inner-row .best-selling {
+  background: url(/images/collection-item3.jpg) 0 0 no-repeat;
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */

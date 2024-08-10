@@ -1,0 +1,17 @@
+@import '../utils/mixins';
+@import '../utils/variables';
+
+
+.shop-now-btn{
+   padding: 0.6rem 3rem;
+   &:hover{
+      background: $font-color;
+      color:#fff;
+
+      i{
+         animation: slideRight 0.5s ease-out;;
+      }
+   }
+
+
+}

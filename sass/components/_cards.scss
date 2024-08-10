@@ -1,0 +1,48 @@
+@import '../utils/mixins';
+@import '../utils/variables';
+@import '../animations/animation';
+
+
+.products{
+        .card{
+            border: 0;
+
+            .card-img{
+                border: 1px $secondary-font-col solid;
+                padding: 0.30rem;
+                position: relative;
+                img{
+
+                    width: 100%;
+                }
+                .cart-content{
+                    position: absolute;
+                    width: 85%;
+                    background: #fff;
+                    top: 8rem;
+                    left: 1rem;
+                    padding: 0.6rem;
+                    display: none;
+
+
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    .cart-content{
+                        display: flex;
+                        justify-content: space-between;
+                        cursor: default;
+                        animation: slideDown 0.5s ease-out;;
+                    }
+                }
+            }
+            .card-content{
+                margin: 1rem 0;
+
+            }
+           
+        }
+    
+        
+}
