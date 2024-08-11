@@ -107,37 +107,39 @@ header {
     }
   }
 
-  .card {
-    .card-content {
-      h5 {
-        font-weight: 700;
 
-        &:hover {
-          color: $hover-font-color;
-          cursor: pointer;
-        }
+}
 
-      }
+.card {
+  .card-content {
+    h5 {
+      font-weight: 700;
 
-
-
-      h4 {
+      &:hover {
         color: $hover-font-color;
+        cursor: pointer;
       }
 
     }
 
-    .card-img {
-      .cart-content {
 
-        h6,
-        i {
-          font-size: 0.8rem;
-          margin: 0;
-        }
-      }
 
+    h4 {
+      color: $hover-font-color;
     }
+
+  }
+
+  .card-img {
+    .cart-content {
+
+      h6,
+      i {
+        font-size: 0.8rem;
+        margin: 0;
+      }
+    }
+
   }
 }
 
@@ -163,6 +165,49 @@ header {
         font-size: 0.8rem;
       }
 
+    }
+  }
+}
+
+
+.discount{
+  .row{
+    .content{
+      h2{
+        font-size: 2.55rem;
+        font-weight: 700;
+        
+      }
+      p{
+        font-size: 0.8rem;
+        color: $secondary-font-col;
+      }
+    }
+
+    .form{
+      .subscribe-btn{
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.all-products{
+  .heading{
+    h2{
+      font-weight: 700;
+      font-size: 2.4rem;
+    }
+  }
+
+  .tabs{
+    .tab{
+      color: $secondary-font-col;
+      font-weight: 500;
+      &:hover{
+        color: $hover-arrow-color;
+        cursor: pointer;
+      }
     }
   }
 }

@@ -3,6 +3,7 @@
 @import '../components/cards';
 @import '../layout/header';
 @import '../animations/animation';
+@import '../utils/mixins';
 
 * {
     margin: 0;
@@ -40,7 +41,7 @@
 
 
             .right-arrow {
-                left: 81.8rem;
+                left: 90.8rem;
             }
 
             .slides {
@@ -88,7 +89,7 @@
 }
 
 .selections {
-    padding: 5rem 0;
+    padding: 3rem 0;
 
     .col-md-12 {
         // background-size: cover;
@@ -124,20 +125,56 @@
             flex-direction: column;
             padding: 0 0 0 2rem;
 
+            .content{
+                padding: 2.58rem 0;
+                width:50%
+            }
+
             .basic-collection {
                 background: url(/images/collection-item2.jpg) -70px -45px no-repeat;
                 width: 100%;
 
-                .content{
-                    padding: 5rem 0;
-                    width:50%
-                }
+                
             }
 
             .best-selling {
-                background: url(/images/collection-item3.jpg) 0 0 no-repeat;
+                background: url(/images/collection-item3.jpg) -116px -46px no-repeat;
                 width: 100%;
             }
         }
     }
 }
+
+.discount{
+    padding: 6rem 0;
+    .row{
+      .content{
+        p{
+          margin: 3rem 0;
+        }
+      }
+
+      .form{
+        .form-control{
+            width: 75%;
+            border-radius: 0;
+            padding: 0.80rem;
+        
+        }
+
+      }
+    }
+  }
+
+  .all-products{
+    .tabs{
+        
+        .tab:first-child{
+            margin-right: 1rem ;
+        }
+        
+        .tab:not(:first-child) {
+            margin: 0 1.5rem;
+        }
+    }
+  }

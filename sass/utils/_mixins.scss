@@ -1,0 +1,9 @@
+@mixin cart-content($width: 85%, $top: 9rem, $left: 1rem, $padding: 0.6rem) {
+    position: absolute;
+    width: $width;
+    background: #fff;
+    top: $top;
+    left: $left;
+    padding: $padding;
+    display: none;
+}
