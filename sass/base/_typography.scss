@@ -156,15 +156,24 @@ header {
 
       h2 {
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 4rem;
         color: #000;
 
       }
 
       p {
-        font-size: 0.8rem;
+        font-size: 1rem;
       }
 
+    }
+
+    .basic-collection, .best-selling{
+      .content{
+        
+        h2{
+          font-size: 3rem;
+        }
+      }
     }
   }
 }
@@ -209,5 +218,19 @@ header {
         cursor: pointer;
       }
     }
+  }
+}
+
+
+.testimonial{
+  .row{
+
+    .quotation-col{
+      i{
+        color: $secondary-font-col;
+        font-size: 8rem;
+      }
+    }
+      
   }
 }

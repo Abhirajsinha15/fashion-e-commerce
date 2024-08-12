@@ -82,11 +82,14 @@ header .navbar .navbar-nav li a:hover {
 }
 .selections .row .content h2 {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #000;
 }
 .selections .row .content p {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+.selections .row .basic-collection .content h2, .selections .row .best-selling .content h2 {
+  font-size: 3rem;
 }
 
 .discount .row .content h2 {
@@ -112,6 +115,11 @@ header .navbar .navbar-nav li a:hover {
 .all-products .tabs .tab:hover {
   color: #6995B1;
   cursor: pointer;
+}
+
+.testimonial .row .quotation-col i {
+  color: #8D8D8D;
+  font-size: 8rem;
 }
 
 .common-hover:hover {
@@ -190,12 +198,15 @@ header .navbar .navbar-nav li a:hover {
   margin: 1rem 0;
 }
 
-.all-products .cards .card-content {
+.all-products .row {
+  margin: 1rem 0;
+}
+.all-products .row .card .cart-content {
   position: absolute;
-  width: 10%;
+  width: 90%;
   background: #fff;
-  top: 14rem;
-  left: 2rem;
+  top: 10rem;
+  left: 0.5rem;
   padding: 1rem;
   display: none;
 }
@@ -282,11 +293,14 @@ header .navbar .navbar-nav li a:hover {
 }
 .selections .row .content h2 {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #000;
 }
 .selections .row .content p {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+.selections .row .basic-collection .content h2, .selections .row .best-selling .content h2 {
+  font-size: 3rem;
 }
 
 .discount .row .content h2 {
@@ -312,6 +326,11 @@ header .navbar .navbar-nav li a:hover {
 .all-products .tabs .tab:hover {
   color: #6995B1;
   cursor: pointer;
+}
+
+.testimonial .row .quotation-col i {
+  color: #8D8D8D;
+  font-size: 8rem;
 }
 
 @keyframes slideDown {
@@ -383,6 +402,10 @@ header .navbar .navbar-nav li {
   color: #000;
 }
 
+.products, .discount, .all-products {
+  display: none;
+}
+
 .hero .container-fluid .responsive {
   position: relative;
   padding: 0 2rem;
@@ -391,17 +414,26 @@ header .navbar .navbar-nav li {
   display: none;
   position: absolute;
   z-index: 1;
+  top: 0;
   bottom: 15rem;
   width: 2.5rem;
   padding: 0.188rem 0 0.188rem 1rem;
-  background: #E9ECEE;
 }
 .hero .container-fluid .responsive .arrows:hover {
   background: #6995B1;
   color: #fff;
 }
+.hero .container-fluid .responsive .left-arrow {
+  right: 0;
+  left: 0;
+  top: 50%;
+  bottom: 0;
+  transform: translateY(-50%);
+}
 .hero .container-fluid .responsive .right-arrow {
-  left: 90.8rem;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .hero .container-fluid .responsive .slides {
   width: 100%;
@@ -437,6 +469,7 @@ header .navbar .navbar-nav li {
 
 .selections {
   padding: 3rem 0;
+  background: #FAFAFA;
 }
 .selections .col-md-12 {
   border-radius: 0.5rem;
@@ -448,10 +481,10 @@ header .navbar .navbar-nav li {
   background-size: cover;
 }
 .selections .row .casual-collection .content {
-  width: 50%;
+  width: 47%;
   position: absolute;
-  top: 13rem;
-  left: 22.5rem;
+  top: 9rem;
+  left: 24.5rem;
   padding: 0 0 0 2.12rem;
 }
 .selections .row .casual-collection .content p {
@@ -462,16 +495,19 @@ header .navbar .navbar-nav li {
   padding: 0 0 0 2rem;
 }
 .selections .row .inner-row .content {
-  padding: 2.58rem 0;
+  padding: 2.8rem 0;
   width: 50%;
 }
 .selections .row .inner-row .basic-collection {
-  background: url(/images/collection-item2.jpg) -70px -45px no-repeat;
+  background: url(/images/collection-item2.jpg) -3px -40px no-repeat;
   width: 100%;
 }
 .selections .row .inner-row .best-selling {
   background: url(/images/collection-item3.jpg) -116px -46px no-repeat;
   width: 100%;
+}
+.selections .row .inner-row .basic-collection .content, .selections .row .inner-row .best-selling .content {
+  padding-left: 4rem;
 }
 
 .discount {
@@ -486,9 +522,42 @@ header .navbar .navbar-nav li {
   padding: 0.8rem;
 }
 
+.all-products {
+  padding: 5rem 0;
+  background: #fafafa;
+}
 .all-products .tabs .tab:first-child {
   margin-right: 1rem;
 }
 .all-products .tabs .tab:not(:first-child) {
   margin: 0 1.5rem;
+}
+
+.testimonial {
+  padding: 8rem 0;
+}
+.testimonial .testimonial-slider {
+  position: relative;
+  padding: 0 2rem;
+}
+.testimonial .testimonial-slider .arrows {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 16rem;
+  bottom: 0;
+  width: 2.5rem;
+  padding: 0.188rem 0 0.188rem 1rem;
+}
+.testimonial .testimonial-slider .left-arrow {
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 50%;
+  transform: translateY(-50%);
+}
+.testimonial .testimonial-slider .right-arrow {
+  left: 2rem;
+  bottom: 50%;
+  transform: translateY(-50%);
 }/*# sourceMappingURL=main.css.map */

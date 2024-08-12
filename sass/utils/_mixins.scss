@@ -7,3 +7,23 @@
     padding: $padding;
     display: none;
 }
+
+
+@mixin arrows-style($top: 0, $bottom: 15rem, $width: 2.5rem, $padding:  0.188rem 0 0.188rem 1rem) {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: $top;
+    bottom:$bottom;
+    width: $width;
+    padding: $padding;
+}
+
+@mixin left-arrows-style($right: 0 , $left: 0 ,$top: 50% , $bottom: 0 , $tansf: translateY(-50%)){
+    right: $right;
+    left: $left;
+    top: $top;
+    bottom: $bottom;
+    transform: $tansf;
+}
+

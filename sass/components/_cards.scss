@@ -3,44 +3,55 @@
 @import '../animations/animation';
 
 
+.card {
+    border: 0;
 
-        .card{
-            border: 0;
+    .card-img {
+        border: 1px $secondary-font-col solid;
+        padding: 0.30rem;
+        position: relative;
 
-            .card-img{
-                border: 1px $secondary-font-col solid;
-                padding: 0.30rem;
-                position: relative;
-                img{
+        img {
 
-                    width: 100%;
-                }
-                .cart-content{
-                    @include cart-content();
-                }
-
-                &:hover{
-                    cursor: pointer;
-                    .cart-content{
-                        display: flex;
-                        justify-content: space-between;
-                        cursor: default;
-                        animation: slideDown 0.5s ease-out;;
-                    }
-                }
-            }
-            .card-content{
-                margin: 1rem 0;
-
-            }
-           
+            width: 100%;
         }
+
+        .cart-content {
+            @include cart-content();
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            .cart-content {
+                display: flex;
+                justify-content: space-between;
+                cursor: default;
+                animation: slideDown 0.5s ease-out;
+                ;
+            }
+        }
+    }
+
+    .card-content {
+        margin: 1rem 0;
+
+    }
+
+}
+
+
+
+.all-products {
+    .row{
+        margin: 1rem 0;
+        .card {
     
-        
-        .all-products{
-            .cards{
-                .card-content{
-                    @include cart-content(10%, 14rem, 2rem, 1rem);
+                .cart-content {
+                    @include cart-content(90%, 10rem, 0.5rem, 1rem);
                 }
-            }
+    
         }
+    }
+    
+}
