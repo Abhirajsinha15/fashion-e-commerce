@@ -3,9 +3,13 @@
 body {
   font-family: "icomoon", sans-serif;
 }
+body h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
 
 .activated {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 header .banner .row {
@@ -25,7 +29,7 @@ header .navbar .navbar-nav li a {
   font-size: 0.75rem;
 }
 header .navbar .navbar-nav li a:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 .hero .responsive .arrows {
@@ -55,18 +59,18 @@ header .navbar .navbar-nav li a:hover {
   font-size: 0.8rem;
 }
 .products .content-head a:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 .card .card-content h5 {
   font-weight: 700;
 }
 .card .card-content h5:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
   cursor: pointer;
 }
 .card .card-content h4 {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 .card .card-img .cart-content h6,
 .card .card-img .cart-content i {
@@ -88,7 +92,8 @@ header .navbar .navbar-nav li a:hover {
 .selections .row .content p {
   font-size: 1rem;
 }
-.selections .row .basic-collection .content h2, .selections .row .best-selling .content h2 {
+.selections .row .basic-collection .content h2,
+.selections .row .best-selling .content h2 {
   font-size: 3rem;
 }
 
@@ -121,6 +126,23 @@ header .navbar .navbar-nav li a:hover {
   color: #8D8D8D;
   font-size: 8rem;
 }
+.testimonial .row .slides-content p {
+  font-size: 1.5rem;
+}
+.testimonial .row .slides-content h5 {
+  color: #6C97B3;
+}
+
+.sales .slick-dots {
+  color: #6C97B3;
+}
+.sales .card .card-content .original-price {
+  text-decoration: line-through;
+}
+.sales .card .card-content .sales-price {
+  color: #6C97B3;
+  font-size: 1.5rem;
+}
 
 .common-hover:hover {
   color: #6995B1;
@@ -145,6 +167,14 @@ header .navbar .navbar-nav li a:hover {
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 0;
+}
+
+.slick-dots {
+  width: 95%;
+}
+.slick-dots li.slick-active button {
+  border: 2px solid #6C97B3;
+  border-radius: 50%;
 }
 
 @keyframes slideDown {
@@ -211,12 +241,29 @@ header .navbar .navbar-nav li a:hover {
   display: none;
 }
 
+.sales .sales-slider .card {
+  margin: 0 0.625rem;
+}
+.sales .sales-slider .card .cart-content {
+  position: absolute;
+  width: 80%;
+  background: #fff;
+  top: 12rem;
+  left: 1.5rem;
+  padding: 1.2rem;
+  display: none;
+}
+
 body {
   font-family: "icomoon", sans-serif;
 }
+body h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
 
 .activated {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 header .banner .row {
@@ -236,7 +283,7 @@ header .navbar .navbar-nav li a {
   font-size: 0.75rem;
 }
 header .navbar .navbar-nav li a:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 .hero .responsive .arrows {
@@ -266,18 +313,18 @@ header .navbar .navbar-nav li a:hover {
   font-size: 0.8rem;
 }
 .products .content-head a:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 
 .card .card-content h5 {
   font-weight: 700;
 }
 .card .card-content h5:hover {
-  color: #B7E9FF;
+  color: #6C97B3;
   cursor: pointer;
 }
 .card .card-content h4 {
-  color: #B7E9FF;
+  color: #6C97B3;
 }
 .card .card-img .cart-content h6,
 .card .card-img .cart-content i {
@@ -299,7 +346,8 @@ header .navbar .navbar-nav li a:hover {
 .selections .row .content p {
   font-size: 1rem;
 }
-.selections .row .basic-collection .content h2, .selections .row .best-selling .content h2 {
+.selections .row .basic-collection .content h2,
+.selections .row .best-selling .content h2 {
   font-size: 3rem;
 }
 
@@ -331,6 +379,23 @@ header .navbar .navbar-nav li a:hover {
 .testimonial .row .quotation-col i {
   color: #8D8D8D;
   font-size: 8rem;
+}
+.testimonial .row .slides-content p {
+  font-size: 1.5rem;
+}
+.testimonial .row .slides-content h5 {
+  color: #6C97B3;
+}
+
+.sales .slick-dots {
+  color: #6C97B3;
+}
+.sales .card .card-content .original-price {
+  text-decoration: line-through;
+}
+.sales .card .card-content .sales-price {
+  color: #6C97B3;
+  font-size: 1.5rem;
 }
 
 @keyframes slideDown {
@@ -402,10 +467,6 @@ header .navbar .navbar-nav li {
   color: #000;
 }
 
-.products, .discount, .all-products {
-  display: none;
-}
-
 .hero .container-fluid .responsive {
   position: relative;
   padding: 0 2rem;
@@ -425,10 +486,10 @@ header .navbar .navbar-nav li {
 }
 .hero .container-fluid .responsive .left-arrow {
   right: 0;
-  left: 0;
-  top: 50%;
-  bottom: 0;
-  transform: translateY(-50%);
+  left: 1%;
+  top: 51%;
+  bottom: 41%;
+  transform: translateY(-68%);
 }
 .hero .container-fluid .responsive .right-arrow {
   right: 0;
@@ -483,8 +544,8 @@ header .navbar .navbar-nav li {
 .selections .row .casual-collection .content {
   width: 47%;
   position: absolute;
-  top: 9rem;
-  left: 24.5rem;
+  top: 5rem;
+  left: 23.5rem;
   padding: 0 0 0 2.12rem;
 }
 .selections .row .casual-collection .content p {
@@ -495,7 +556,7 @@ header .navbar .navbar-nav li {
   padding: 0 0 0 2rem;
 }
 .selections .row .inner-row .content {
-  padding: 2.8rem 0;
+  padding: 1.8rem 0;
   width: 50%;
 }
 .selections .row .inner-row .basic-collection {
@@ -534,7 +595,10 @@ header .navbar .navbar-nav li {
 }
 
 .testimonial {
-  padding: 8rem 0;
+  padding: 5rem 0;
+}
+.testimonial .quotation-col {
+  padding: 2rem 0;
 }
 .testimonial .testimonial-slider {
   position: relative;
@@ -552,7 +616,7 @@ header .navbar .navbar-nav li {
 .testimonial .testimonial-slider .left-arrow {
   right: 0;
   left: 0;
-  top: 0;
+  top: 256px;
   bottom: 50%;
   transform: translateY(-50%);
 }

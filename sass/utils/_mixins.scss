@@ -19,11 +19,13 @@
     padding: $padding;
 }
 
-@mixin left-arrows-style($right: 0 , $left: 0 ,$top: 50% , $bottom: 0 , $tansf: translateY(-50%)){
+@mixin left-arrows-style($right: 0 , $left: 1% ,$top: 51% , $bottom: 41% , $tansf: translateY(-68%)){
     right: $right;
     left: $left;
     top: $top;
     bottom: $bottom;
     transform: $tansf;
 }
+
+
 

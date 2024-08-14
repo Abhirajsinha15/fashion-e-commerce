@@ -22,9 +22,9 @@
 }
 
 
-.products , .discount ,.all-products{
-    display: none;
-}
+// .hero, .products , .discount , .all-products , .testimonial , .sales{
+//     // display: none;
+// } 
 
 .hero {
     
@@ -116,8 +116,8 @@
             .content {
                 width: 47%;
                 position: absolute;
-                top: 9rem;
-                left: 24.5rem;
+                top: 5rem;
+                left: 23.5rem;
                 padding: 0 0 0 2.12rem;
                 p {
                     margin: 2rem 0;
@@ -133,7 +133,7 @@
             padding: 0 0 0 2rem;
 
             .content{
-                padding: 2.8rem 0;
+                padding: 1.8rem 0;
                 width:50%
             }
 
@@ -196,12 +196,16 @@
   }
 
   .testimonial{
-    padding: 8rem 0;
+    padding: 5rem 0;
+
+    .quotation-col{
+        padding: 2rem 0;
+    }
 
     .testimonial-slider {
         position: relative;
         padding: 0 2rem;
-
+        
         .arrows {
 
             @include arrows-style(16rem, 0 , 2.5rem , 0.188rem 0 0.188rem 1rem );
@@ -210,7 +214,7 @@
 
 
         .left-arrow {
-            @include left-arrows-style( 0, 0 , 0 , 50% , translateY(-50%) )
+            @include left-arrows-style( 0, 0 , 256px , 50% , translateY(-50%) )
         }
 
         .right-arrow {
@@ -221,3 +225,5 @@
     }  
 
   }
+
+

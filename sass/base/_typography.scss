@@ -4,7 +4,14 @@
 
 body {
   font-family: 'icomoon', sans-serif;
+
+  h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
 }
+
+
 
 
 .activated {
@@ -167,10 +174,11 @@ header {
 
     }
 
-    .basic-collection, .best-selling{
-      .content{
-        
-        h2{
+    .basic-collection,
+    .best-selling {
+      .content {
+
+        h2 {
           font-size: 3rem;
         }
       }
@@ -179,41 +187,43 @@ header {
 }
 
 
-.discount{
-  .row{
-    .content{
-      h2{
+.discount {
+  .row {
+    .content {
+      h2 {
         font-size: 2.55rem;
         font-weight: 700;
-        
+
       }
-      p{
+
+      p {
         font-size: 0.8rem;
         color: $secondary-font-col;
       }
     }
 
-    .form{
-      .subscribe-btn{
+    .form {
+      .subscribe-btn {
         font-size: 12px;
       }
     }
   }
 }
 
-.all-products{
-  .heading{
-    h2{
+.all-products {
+  .heading {
+    h2 {
       font-weight: 700;
       font-size: 2.4rem;
     }
   }
 
-  .tabs{
-    .tab{
+  .tabs {
+    .tab {
       color: $secondary-font-col;
       font-weight: 500;
-      &:hover{
+
+      &:hover {
         color: $hover-arrow-color;
         cursor: pointer;
       }
@@ -222,15 +232,43 @@ header {
 }
 
 
-.testimonial{
-  .row{
+.testimonial {
+  .row {
 
-    .quotation-col{
-      i{
+    .quotation-col {
+      i {
         color: $secondary-font-col;
         font-size: 8rem;
       }
     }
-      
+
+    .slides-content {
+      p {
+        font-size: 1.5rem;
+      }
+
+      h5 {
+        color: $hover-font-color;
+      }
+    }
+  }
+}
+
+.sales {
+  .slick-dots {
+    color: $hover-font-color;
+  }
+
+  .card {
+    .card-content {
+      .original-price{
+        text-decoration: line-through;
+      }
+
+      .sales-price{
+        color: $hover-font-color;
+        font-size: 1.5rem;
+      }
+    }
   }
 }

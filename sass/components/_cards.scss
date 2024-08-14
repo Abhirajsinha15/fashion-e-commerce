@@ -55,3 +55,17 @@
     }
     
 }
+
+.sales{
+
+    .sales-slider{
+
+        .card{
+            margin: 0 0.625rem;
+            .cart-content{
+                @include  cart-content(80%, 12rem, 1.5rem, 1.2rem)
+            }
+            
+        }
+    }
+}

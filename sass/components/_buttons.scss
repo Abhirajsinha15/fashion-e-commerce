@@ -2,26 +2,30 @@
 @import '../utils/variables';
 
 
-.common-hover{
-   &:hover{
+.common-hover {
+   &:hover {
 
       color: $hover-arrow-color;
-      i{
 
-         animation: slideRight 0.5s ease-out;;
+      i {
+
+         animation: slideRight 0.5s ease-out;
+         ;
       }
    }
 
 }
 
-.shop-now-btn{
+.shop-now-btn {
    padding: 0.6rem 3rem;
-   &:hover{
-      background: $font-color;
-      color:#fff;
 
-      i{
-         animation: slideRight 0.5s ease-out;;
+   &:hover {
+      background: $font-color;
+      color: #fff;
+
+      i {
+         animation: slideRight 0.5s ease-out;
+         ;
       }
    }
 
@@ -29,11 +33,24 @@
 }
 
 
-.discount{
-   .subscribe-btn{
+.discount {
+   .subscribe-btn {
       padding: 0.5rem;
       text-transform: uppercase;
       font-weight: 600;
       border-radius: 0;
+   }
+}
+
+
+
+.slick-dots {
+   width: 95%;
+
+   li.slick-active {
+      button {
+         border: 2px solid $hover-font-color; 
+         border-radius: 50%; 
+      }
    }
 }
