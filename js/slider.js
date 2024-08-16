@@ -48,8 +48,8 @@ $(document).ready(function () {
         infinite: true,
         speed: 300,
         arrows: true,
-        prevArrow: `<i class="fa fa-arrow-left left-arrow arrows" aria-hidden="true"></i>`,
-        nextArrow: `<i class="fa fa-arrow-right right-arrow arrows" aria-hidden="true"></i>`,
+        prevArrow: `<i class="fa fa-arrow-left left-arrow arrows test-arrows" aria-hidden="true"></i>`,
+        nextArrow: `<i class="fa fa-arrow-right right-arrow arrows test-arrows" aria-hidden="true"></i>`,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [

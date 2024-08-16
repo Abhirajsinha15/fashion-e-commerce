@@ -1,11 +1,21 @@
-@mixin cart-content($width: 85%, $top: 9rem, $left: 1rem, $padding: 0.6rem) {
+@mixin cart-content( $dp:none , $js:space-between , $top: 9rem , $left: 1rem , $pad: 0.8rem , $w:85% , $bg:#fff){
     position: absolute;
-    width: $width;
-    background: #fff;
+    display: $dp;
+    justify-content: $js;
     top: $top;
     left: $left;
-    padding: $padding;
-    display: none;
+    padding: $pad;
+    width: $w;
+    background: $bg;
+}
+
+
+@mixin sales-content(){
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    padding: 0.4rem 0 0;
+    background: $hover-font-color;
 }
 
 

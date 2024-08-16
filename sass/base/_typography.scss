@@ -7,7 +7,10 @@ body {
 
   h2 {
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2rem;
+  }
+  h5{
+    font-size: 1rem ;
   }
 }
 
@@ -99,6 +102,7 @@ header {
 .products {
   .content-head {
     h2 {
+
       font-weight: 700;
       font-size: 2rem;
     }
@@ -163,7 +167,7 @@ header {
 
       h2 {
         font-weight: 800;
-        font-size: 4rem;
+        font-size: 3.8rem;
         color: #000;
 
       }
@@ -244,11 +248,17 @@ header {
 
     .slides-content {
       p {
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
 
       h5 {
         color: $hover-font-color;
+      }
+    }
+
+    .test-arrows{
+      &:hover{
+        cursor: pointer;
       }
     }
   }
@@ -260,6 +270,17 @@ header {
   }
 
   .card {
+
+    .card-img{
+      .sales-content{
+        h6{
+          color: #fff;
+          font-weight: 700;
+        }
+          
+      }
+  }
+
     .card-content {
       .original-price{
         text-decoration: line-through;
@@ -272,3 +293,6 @@ header {
     }
   }
 }
+
+
+

@@ -22,9 +22,9 @@
 }
 
 
-// .hero, .products , .discount , .all-products , .testimonial , .sales{
-//     // display: none;
-// } 
+.selections {
+    display: none;
+} 
 
 .hero {
     
@@ -117,7 +117,7 @@
                 width: 47%;
                 position: absolute;
                 top: 5rem;
-                left: 23.5rem;
+                left: 20.5rem;
                 padding: 0 0 0 2.12rem;
                 p {
                     margin: 2rem 0;
@@ -134,7 +134,7 @@
 
             .content{
                 padding: 1.8rem 0;
-                width:50%
+                width:60%
             }
 
             .basic-collection {
@@ -226,4 +226,23 @@
 
   }
 
+.sales{
+    .card-img{
+        .sales-content{
+            @include sales-content
+        }
+    }
+}
 
+.denim-collection{
+    border-radius: 10rem;
+    padding: 4rem 0;
+    .content{
+        margin: 0 auto;
+    }
+    .cover-img{
+            background: url(/images/model.jpg) 0 0 no-repeat;
+            background-size: cover;
+            min-height: 40rem;
+    }
+}
