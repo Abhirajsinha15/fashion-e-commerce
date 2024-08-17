@@ -294,5 +294,27 @@ header {
   }
 }
 
+.denim-collection{
+  .content{
+    color: $secondary-font-col;
+    
+    h2{
+      font-size: 4rem;
+      font-weight: 800;
+      color: #000;
+    }
+
+
+    p{
+      font-size: 0.95rem;
+    }
+  }
+}
+
+.day-quote{
+  .content{
+    text-align: center;
+  }
+}
 
 
