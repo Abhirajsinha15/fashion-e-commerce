@@ -61,3 +61,25 @@
         }
     }
 }
+
+
+.journal{
+    .card{
+
+        .card-img{
+            border: 0;
+            overflow: hidden;
+            width: 100%;  
+            height: 100%; 
+            display: inline-block; 
+            img{
+                border-radius: 0.313rem;
+            } 
+        }
+        &:hover {
+            img {
+              transform: scale(1.2); 
+            }
+          }
+    }
+}

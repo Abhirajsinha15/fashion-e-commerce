@@ -265,10 +265,40 @@
     }
 }
 
-.day-qoute{
-    padding: 4rem 0;
-    .content{
+.day-quote {
+    padding: 5rem 0;
+
+    .content {
         width: 50%;
         margin: 0 auto;
+
+        p {
+            margin: 2rem 0;
+        }
+    }
+}
+
+.journal {
+    padding: 7.5rem 3rem 5rem;
+    border-top: 0.063rem $secondary-font-col solid;
+
+        
+    img {
+        transition: transform 0.5s ease;
+        width: 100%;
+        height: 100%;
+      }
+    
+      
+    
+}
+
+.company{
+    .row{
+        .col-lg-2{
+            img{
+                width: 80%;
+            }
+        }
     }
 }
