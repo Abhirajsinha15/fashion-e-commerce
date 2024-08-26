@@ -4,9 +4,10 @@
 @import '../base/typography';
 
 
-.cart-content{
+.cart-content {
     @include cart-content()
 }
+
 
 
 .card {
@@ -21,16 +22,16 @@
             width: 100%;
         }
 
-        
+
 
         &:hover {
             cursor: pointer;
 
-            .cart-content{
-                @include cart-content($dp:flex);
+            .cart-content {
+                @include cart-content($dp: flex);
                 animation: slideDown 0.5s ease-in-out;
             }
-        
+
         }
     }
 
@@ -43,43 +44,97 @@
 
 
 .all-products {
-    .row{
+    .row {
         margin: 1rem 0;
 
-   
+
     }
-    
+
 }
 
-.sales{
+.sales {
 
-    .sales-slider{
+    .sales-slider {
 
-        .card{
+        .card {
             margin: 0 0.625rem;
+
+        }
+    }
+}
+
+
+.journal {
+    .card {
+
+        .card-img {
+            border: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+
+            img {
+                border-radius: 0.313rem;
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+.insta-page{
+    .card{
+        .card-img{
+            border: 0;
+        
+        }
+        &:hover{
+            .insta-hover{
+                display: flex;
+            }
+            cursor: pointer;
+        }
+
+        .insta-hover{
+            @include cart-content($dp:none, $js: center, $top: 0, $left: 0, $pad: 0.8rem, $w: 100%, $bg: rgba(128, 128, 128, 0.5), $hi: 12.4rem);
+            color:rgba(255, 255, 255, 1);
             
         }
     }
 }
 
+// .insta-page {
+//     .card {
+//         background: yellowgreen;
+//         padding: 5rem;
+//         position: relative;
 
-.journal{
-    .card{
+//         .card-img {
+//             border: 0;
+//             background: yellow;
+//             position: relative;
 
-        .card-img{
-            border: 0;
-            overflow: hidden;
-            width: 100%;  
-            height: 100%; 
-            display: inline-block; 
-            img{
-                border-radius: 0.313rem;
-            } 
-        }
-        &:hover {
-            img {
-              transform: scale(1.2); 
-            }
-          }
-    }
-}
+//             &:hover ~ .insta-hover {
+//                 display: none;
+//             }
+//         }
+
+//         .insta-hover {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             position: absolute;
+//             top: 0;
+//             left: 0;
+//             width: 100%;
+//             height: 12.4rem;
+//             background: grey;
+//         }
+//     }
+// }
+

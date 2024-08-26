@@ -22,6 +22,8 @@
 }
 
 
+
+
 .selections {
     display: none;
 }
@@ -294,6 +296,7 @@
 }
 
 .company{
+    background: '#FAFAFA';
     .row{
         .col-lg-2{
             img{
@@ -301,4 +304,8 @@
             }
         }
     }
+}
+
+.insta-page{
+    padding: 5rem 0 ;
 }

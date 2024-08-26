@@ -1,4 +1,10 @@
-@mixin cart-content( $dp:none , $js:space-between , $top: 9rem , $left: 1rem , $pad: 0.8rem , $w:85% , $bg:#fff){
+
+
+
+
+
+
+@mixin cart-content( $dp:none , $js:space-between , $top: 9rem , $left: 1rem , $pad: 0.8rem , $w:85% , $bg:#fff, $hi: 2.5rem , $ai:center){
     position: absolute;
     display: $dp;
     justify-content: $js;
@@ -7,6 +13,8 @@
     padding: $pad;
     width: $w;
     background: $bg;
+    height: $hi;
+    align-items: $ai;
 }
 
 

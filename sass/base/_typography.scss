@@ -348,7 +348,7 @@ header {
         a {
           display: block;
           font-weight: 700;
-          font-size: 1.3rem ;
+          font-size: 1rem ;
           &:hover{
             color: $hover-font-color;
           }
@@ -364,5 +364,13 @@ header {
         }
       }
     }
+  }
+}
+
+
+.insta-page{
+  .insta-hover{
+    color: #fff;
+    font-size: 2rem;
   }
 }

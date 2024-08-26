@@ -190,7 +190,7 @@ header .navbar .navbar-nav li a:hover {
 .journal .row .card-content .blog-link a {
   display: block;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .journal .row .card-content .blog-link a:hover {
   color: #6C97B3;
@@ -202,6 +202,11 @@ header .navbar .navbar-nav li a:hover {
   color: #8D8D8D;
   font-size: 0.75rem;
   margin: 0.75rem 0;
+}
+
+.insta-page .insta-hover {
+  color: #fff;
+  font-size: 2rem;
 }
 
 .common-hover:hover {
@@ -452,7 +457,7 @@ header .navbar .navbar-nav li a:hover {
 .journal .row .card-content .blog-link a {
   display: block;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .journal .row .card-content .blog-link a:hover {
   color: #6C97B3;
@@ -466,6 +471,11 @@ header .navbar .navbar-nav li a:hover {
   margin: 0.75rem 0;
 }
 
+.insta-page .insta-hover {
+  color: #fff;
+  font-size: 2rem;
+}
+
 .cart-content {
   position: absolute;
   display: none;
@@ -475,6 +485,8 @@ header .navbar .navbar-nav li a:hover {
   padding: 0.8rem;
   width: 85%;
   background: #fff;
+  height: 2.5rem;
+  align-items: center;
 }
 
 .card {
@@ -500,6 +512,8 @@ header .navbar .navbar-nav li a:hover {
   padding: 0.8rem;
   width: 85%;
   background: #fff;
+  height: 2.5rem;
+  align-items: center;
   animation: slideDown 0.5s ease-in-out;
 }
 .card .card-content {
@@ -526,6 +540,29 @@ header .navbar .navbar-nav li a:hover {
 }
 .journal .card:hover img {
   transform: scale(1.2);
+}
+
+.insta-page .card .card-img {
+  border: 0;
+}
+.insta-page .card:hover {
+  cursor: pointer;
+}
+.insta-page .card:hover .insta-hover {
+  display: flex;
+}
+.insta-page .card .insta-hover {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  padding: 0.8rem;
+  width: 100%;
+  background: rgba(128, 128, 128, 0.5);
+  height: 12.4rem;
+  align-items: center;
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -717,7 +754,7 @@ header .navbar .navbar-nav li a:hover {
 .journal .row .card-content .blog-link a {
   display: block;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .journal .row .card-content .blog-link a:hover {
   color: #6C97B3;
@@ -729,6 +766,11 @@ header .navbar .navbar-nav li a:hover {
   color: #8D8D8D;
   font-size: 0.75rem;
   margin: 0.75rem 0;
+}
+
+.insta-page .insta-hover {
+  color: #fff;
+  font-size: 2rem;
 }
 
 @keyframes slideDown {
@@ -1030,6 +1072,13 @@ header .navbar .navbar-nav li {
   height: 100%;
 }
 
+.company {
+  background: "#FAFAFA";
+}
 .company .row .col-lg-2 img {
   width: 80%;
+}
+
+.insta-page {
+  padding: 5rem 0;
 }/*# sourceMappingURL=main.css.map */
